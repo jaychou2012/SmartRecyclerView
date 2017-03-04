@@ -9,9 +9,6 @@ import android.view.View;
 import com.whatjay.recyclerview.adapter.ItemTouchHelperAdapter;
 import com.whatjay.recyclerview.view.SmartRecyclerview;
 
-/**
- * Created by jianghejie on 16/6/20.
- */
 
 public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
 
