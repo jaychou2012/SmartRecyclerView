@@ -2,9 +2,6 @@ package com.whatjay.recyclerview;
 
 import android.support.design.widget.AppBarLayout;
 
-/**
- * Created by jianghejie on 16/6/19.
- */
 
 public abstract class AppBarStateChangeListener implements AppBarLayout.OnOffsetChangedListener {
 
