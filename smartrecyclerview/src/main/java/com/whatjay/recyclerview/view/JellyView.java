@@ -1,8 +1,6 @@
 package com.whatjay.recyclerview.view;
 
-/**
- * Created by jianghejie on 15/11/22.
- */
+
 
 import android.annotation.TargetApi;
 import android.content.Context;
