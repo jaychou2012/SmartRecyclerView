@@ -15,7 +15,25 @@ APKDemo下载体验：[下载APK](https://github.com/zuichu/SmartRecyclerView/bl
 
 [contribute to zuichu](https://github.com/zuichu/SmartRecyclerView)  
 
-效果截图：
+##Gradle Dependency
+Add this in your root ```build.gradle``` file (not your module ```build.gradle``` file):
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Then, add the library to your module ```build.gradle```
+```
+dependencies {
+	        compile 'com.github.jaychou2012:SmartRecyclerView:1.01'
+	}
+```
+
+##效果截图：
 
 <center>
 <img src="https://github.com/zuichutech/Resource/blob/master/Screenshot_20170306-194034.png" width="40%" height="40%"/>
@@ -59,9 +77,9 @@ APKDemo下载体验：[下载APK](https://github.com/zuichu/SmartRecyclerView/bl
 
 [视频演示](https://github.com/zuichutech/Resource/blob/master/device-2017-03-06-194506.mp4)  
 
-基本用法：
+##基本用法：
 
-布局文件：
+布局文件
 ```
 
  <com.whatjay.recyclerview.view.SmartRecyclerview
@@ -229,3 +247,6 @@ SmarRecyclerView轻松帮你实现了下拉刷新，上拉加载更多的逻辑�
         holder.setText(me.zuichu.smartrecyclerviewdemo.R.id.tv_text, s);
     }
  ``` 
+##License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License. Feel free to contribute via Pull Requests, or discuss ideas in Issues. Also feel free to use these ideas in making the Next Big Thing. 
