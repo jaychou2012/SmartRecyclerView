@@ -13,8 +13,6 @@ https://github.com/jaychou2012/SmartRecyclerView
 
 APKDemo下载体验：[下载APK](https://github.com/zuichu/SmartRecyclerView/blob/master/app-debug.apk) 
 
-[contribute to zuichu](https://github.com/zuichu/SmartRecyclerView)  
-
 ##Gradle Dependency
 Add this in your root ```build.gradle``` file (not your module ```build.gradle``` file):
 
